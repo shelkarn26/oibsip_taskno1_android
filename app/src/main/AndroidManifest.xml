@@ -20,6 +20,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".AreaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LengthActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MassActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SpeedActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".TemperatureActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
